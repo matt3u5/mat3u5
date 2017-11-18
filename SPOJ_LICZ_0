@@ -1,0 +1,83 @@
+#include <iostream>
+
+using namespace std;
+
+int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,r,s,t,u,w,x,y,z;
+string napis;
+int test;
+
+
+
+int main()
+{
+
+    cout<<"Liczba testow: ";
+    cin>>test;
+
+    for(int petla=0;petla<=test-1;petla++)
+    {
+
+        getline(cin,napis);
+        int leng=napis.length();
+        cout<<endl;
+        for(int er=0;er<=leng;er++)
+        {
+
+
+            if(napis[er]=='a'||'A') a++;
+            if(napis[er]=='b') b++;
+            if(napis[er]=='c') c++;
+            if(napis[er]=='d') d++;
+            if(napis[er]=='e') e++;
+            if(napis[er]=='f') f++;
+            if(napis[er]=='g') g++;
+            if(napis[er]=='h') h++;
+            if(napis[er]=='i') i++;
+            if(napis[er]=='k') j++;
+            if(napis[er]=='l') l++;
+            if(napis[er]=='m') m++;
+            if(napis[er]=='n') n++;
+            if(napis[er]=='o') o++;
+            if(napis[er]=='p') p++;
+            if(napis[er]=='r') r++;
+            if(napis[er]=='s') s++;
+            if(napis[er]=='t') t++;
+            if(napis[er]=='u') w++;
+            if(napis[er]=='y') x++;
+            if(napis[er]=='z') z++;
+
+
+        }
+
+    cout<<"a "<<a<<endl;
+    cout<<"b "<<b<<endl;
+    cout<<"c "<<c<<endl;
+    cout<<"d "<<d<<endl;
+    cout<<"e "<<e<<endl;
+    cout<<"f "<<f<<endl;
+    cout<<"g "<<g<<endl;
+    cout<<"h "<<h<<endl;
+    cout<<"i "<<i<<endl;
+    cout<<"j "<<j<<endl;
+    cout<<"k "<<k<<endl;
+    cout<<"l "<<l<<endl;
+    cout<<"m "<<m<<endl;
+    cout<<"n "<<n<<endl;
+    cout<<"o "<<o<<endl;
+    cout<<"p "<<p<<endl;
+    cout<<"r "<<r<<endl;
+    cout<<"s "<<s<<endl;
+    cout<<"t "<<t<<endl;
+    cout<<"u "<<u<<endl;
+    cout<<"w "<<w<<endl;
+    cout<<"x "<<x<<endl;
+    cout<<"y "<<y<<endl;
+    cout<<"z "<<z<<endl;
+
+    }
+    return 0;
+}
+
+
+
+
